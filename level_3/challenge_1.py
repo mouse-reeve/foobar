@@ -1,6 +1,8 @@
+''' Find the smallest number of squares that sum to an integer '''
 import math
 
 def answer(n):
+    ''' use a buncha theorems like a chump '''
     # check for 1 square
     if math.sqrt(n) == int(math.sqrt(n)):
         return 1
